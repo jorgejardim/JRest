@@ -18,14 +18,17 @@ Usando o Composer você pode adicionar o codigo abaixo a seu composer.json
 
 ####exemplo de listagem
 GET: http://localhost/jrest/app/public/teste
+
 HEADER: Authorization: 123456
 
 ####exemplo de visualizacao
 GET: http://localhost/jrest/app/public/teste/view/1
+
 HEADER: Authorization: 123456
 
 ####exemplo de adicionar
 POST: http://localhost/jrest/app/public/teste/add
+
 HEADER: Authorization: 123456
 
 ```json
@@ -36,6 +39,7 @@ HEADER: Authorization: 123456
 
 ####exemplo de editar
 PUT: http://localhost/jrest/app/public/teste/edit
+
 HEADER: Authorization: 123456
 
 ```json
@@ -46,6 +50,7 @@ HEADER: Authorization: 123456
 
 ####exemplo de deletear
 DELETE: http://localhost/jrest/app/public/teste/delete/1
+
 HEADER: Authorization: 123456
 
 ####exemplo de login

@@ -1,4 +1,8 @@
 {
+    "name": "jrest/jrest",
+    "description": "Estrutura para início rápido de aplicações rest usando SLIM Framework",
+    "keywords": ["microframework","rest","router","slimframework"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Jorge Jardim",
