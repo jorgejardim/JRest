@@ -1,0 +1,17 @@
+ERROR - 2015-01-04T17:35:16-02:00 - exception 'RuntimeException' with message 'View cannot render `200` because the template does not exist' in /var/www/html/curso_slim/vendor/slim/slim/Slim/View.php:272
+Stack trace:
+#0 /var/www/html/curso_slim/vendor/slim/slim/Slim/View.php(255): Slim\View->render(200, NULL)
+#1 /var/www/html/curso_slim/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch(200, NULL)
+#2 /var/www/html/curso_slim/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display(200)
+#3 /var/www/html/curso_slim/lib/functions.php(8): Slim\Slim->render(200, Array)
+#4 /var/www/html/curso_slim/lib/routers.php(23): Functions->render(Object(Slim\Slim), 'ok')
+#5 [internal function]: {closure}('teste', 'index')
+#6 /var/www/html/curso_slim/vendor/slim/slim/Slim/Route.php(468): call_user_func_array(Object(Closure), Array)
+#7 /var/www/html/curso_slim/vendor/slim/slim/Slim/Slim.php(1338): Slim\Route->dispatch()
+#8 /var/www/html/curso_slim/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#9 /var/www/html/curso_slim/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#10 /var/www/html/curso_slim/vendor/slim/slim/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#11 /var/www/html/curso_slim/vendor/slim/slim/Slim/Slim.php(1283): Slim\Middleware\PrettyExceptions->call()
+#12 /var/www/html/curso_slim/lib/bootstrap.php(113): Slim\Slim->run()
+#13 /var/www/html/curso_slim/app/public/index.php(8): require('/var/www/html/c...')
+#14 {main}

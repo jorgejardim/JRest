@@ -1,0 +1,18 @@
+{
+    "authors": [
+        {
+            "name": "Jorge Jardim",
+            "email": "jorge@jorgejardim.com.br",
+            "homepage": "http://www.jorgejardim.com.br/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "2.*",
+        "slim/logger": "dev-master",
+        "entomb/slim-json-api": "dev-master",
+        "vrana/notorm": "dev-master",
+        "respect/validation": "0.7.*@dev",
+        "nette/mail": "2.3.*@dev"
+    }
+}
