@@ -1,18 +1,26 @@
 #JRest
 
-Estrutura para início rápido de aplicações rest usando [SLIM Framework](https://github.com/codeguy/Slim).
+Estrutura básica para início rápido de aplicações rest usando [SLIM Framework](https://github.com/codeguy/Slim).
 
-##Installation
+##Instalação
 Usando o Composer você pode adicionar o codigo abaixo a seu composer.json
 
 ```json
     {
         "require": {
-            "jorgejardim/jrest": "dev-master"
+            "jrest/jrest": "dev-master"
         }
     }
 
 ```
+
+##Instalação
+
+Depois de instalar o Composer, execute este comando a partir do diretório no qual você deseja instalar sua aplicação.
+
+    composer create-project jrest/jrest --stability=dev [my-app-name]
+
+Substitua <code>[my-app-name]</code> com o nome do diretório desejado para o novo aplicativo. Você vai querer:
 
 ##RESTful
 
