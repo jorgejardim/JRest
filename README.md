@@ -3,18 +3,6 @@
 Estrutura básica para início rápido de aplicações rest usando [SLIM Framework](https://github.com/codeguy/Slim).
 
 ##Instalação
-Usando o Composer você pode adicionar o codigo abaixo a seu composer.json
-
-```json
-    {
-        "require": {
-            "jrest/jrest": "dev-master"
-        }
-    }
-
-```
-
-##Instalação
 
 Depois de instalar o Composer, execute este comando a partir do diretório no qual você deseja instalar sua aplicação.
 
