@@ -10,7 +10,7 @@ Depois de instalar o Composer, execute este comando a partir do diretório no qu
 
 Substitua <code>[my-app-name]</code> com o nome do diretório desejado para o novo aplicativo. Você vai querer:
 
-##RESTful
+##Exemplos RESTful
 
 ####exemplo de listagem
 GET: http://localhost/jrest/app/public/teste
